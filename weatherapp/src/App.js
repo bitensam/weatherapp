@@ -1,4 +1,5 @@
 import React from 'react';
+import LocationBox from './components/Location/LocationBox';
 import SearchBox from './components/Search/SearchBox';
 import './styles/App.scss';
 
@@ -15,6 +16,7 @@ function App() {
     <div className='app'>
       <main>
         <SearchBox />
+        <LocationBox />
       </main>
     </div>
   );

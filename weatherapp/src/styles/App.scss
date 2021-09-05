@@ -24,7 +24,8 @@ $color-dark: rgba(1, 1, 25, 0.88);
 $radius: 20px;
 
 body {
-  font-size: 32px;
+  font-size: 18px;
+  font-family: $font;
 }
 
 .MuiGrid-container {
@@ -54,6 +55,6 @@ body {
 
 main {
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.25));
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.35));
 }
 
